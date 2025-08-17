@@ -17,3 +17,6 @@ plugins: [jekyll-feed]
 # Configuraciones adicionales
 github_username: "0xinfinitysec"
 repository: "Infinity-Threats-Blog"
+
+include:
+  - assets/css/style.css
