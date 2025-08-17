@@ -1,5 +1,19 @@
-title: Hacker theme
-description: Hacker is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-hacker
+title: "Infinity Threats Blog"
+description: "Blog serio y profesional sobre ciberseguridad"
+baseurl: "/Infinity-Threats-Blog"  # Debe ser el nombre de tu repo si usas GitHub Pages
+url: "https://0xinfinitysec.github.io"  # Cambia con tu usuario GitHub
+
+theme: "hacker"  # tema base, puedes cambiar luego si quieres
+
+# Personalización del tema
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    span: true
+
+# Navegación
+plugins: [jekyll-feed]
+
+# Configuraciones adicionales
+github_username: "0xinfinitysec"
+repository: "Infinity-Threats-Blog"
