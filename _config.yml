@@ -3,8 +3,6 @@ description: "Blog serio y profesional sobre ciberseguridad"
 baseurl: "/Infinity-Threats-Blog"  # Debe ser el nombre de tu repo si usas GitHub Pages
 url: "https://0xinfinitysec.github.io"  # Cambia con tu usuario GitHub
 
-theme: "hacker"  # theme: "hacker"
-
 # Personalización del tema
 markdown: kramdown
 kramdown:
